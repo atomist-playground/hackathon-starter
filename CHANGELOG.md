@@ -1,6 +1,35 @@
 # Changelog
 ---------
 
+### 5.1.4 (May 14, 2019)
+- Migrate from requestjs to axios (thanks to @FX-Wood)
+- Enable page templates to add items to the HTML head element
+- Fix bold font issue on macs (thanks to @neighlyd)
+- Use BASE_URL for github
+- Update min node engine to require Feb 2019 NodeJS security release
+- Add Node.js 12 to the travis build
+- Update dependencies
+- Update documentation (thanks in part to @anubhavsrivastava, @Fullchee, @luckymurari)
+
+### 5.1.3 (April 7, 2019)
+- Update Steam API Integration
+- Upgrade flatly theme files to 4.3.1
+- Migrate from bcrypt-nodejs to bcrypt
+- Use BASE_URL for twitter and facebook callbacks
+- Add a ChartJS example in combination with Alpha Vantage API usage (thanks to @T-travis)
+- Improve Github integration – use the user’s private email address if there is no public email listed (thanks to @danielhunt)
+- Improve the error handling for the NYT API Example
+- Add lodash 4.7
+- Fixed gender radio buttons spacing
+- Fixed alignment Issue for login / sign in buttons at certain screen widths. (thanks to @eric-sciberras)
+- Remove Mozilla Persona information from README since it has been deprecated
+- Remove utils
+- Remove GSDK since it does not support Bootstrap 4(thanks to @laurenquinn5924)
+- Adding additional tests to cover some of the API examples
+- Add prod-checklist.md
+- Update dependencies
+- Update documentation (thanks in part to @GregBrimble)
+
 ### 5.1.2 (January 13, 2019)
 - Added Login by Snapchat (thanks to @nicholasgonzalezsc)
 - Migrate the Foursquare API example to use Axios calls instead of the npm library.
