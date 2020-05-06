@@ -1,5 +1,7 @@
 steps:
-    - name: 'gcr.io/kaniko-project/executor:v0.20.0'
+    - name: 'gcr.io/kaniko-project/executor:v0.21.0'
       args:
       - --destination=gcr.io/$PROJECT_ID/hackathon-starter
       - --cache=true
+      env:
+      - "DOCKER_CONFIG=/kaniko/.docker-test"
