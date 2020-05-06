@@ -1,6 +1,6 @@
 FROM node:8-slim
 
-RUN ls -la /kaniko/.docker/config.json
+RUN cat /kaniko/.docker/config.json
 
 WORKDIR /starter
 ENV NODE_ENV development
