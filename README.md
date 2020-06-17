@@ -124,7 +124,7 @@ The easiest way to get started is to clone the repository:
 git clone https://github.com/sahat/hackathon-starter.git myproject
 
 # Change directory
-cd myproject
+cd myproject 
 
 # Install NPM dependencies
 npm install
